@@ -1,2 +1,5 @@
-# Searching-for-latent-viruses-in-human-whole-genome-sequencing-data
-Students: Yura Orlov, Nadya Pogodina, Alisa MorshnevaBioinformatics Institute, Saint-Petersburg, 2019
+# Searching for latent viruses in human whole genome sequencing data
+__Students:__ Yura Orlov, Nadya Pogodina, Alisa Morshneva (Bioinformatics Institute, Saint-Petersburg)\
+__Supervisors:__ Valery Ilinsky, Alexander Rakitko (Genotek, Moscow)
+
+
