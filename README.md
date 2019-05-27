@@ -20,16 +20,16 @@ __Supervisors:__ Valery Ilinsky, Alexander Rakitko (Genotek, Moscow)
 Characterize viral load and representation in human WGS data and search for possible association between viral load and genetic variations
 
 ## Objectives
-- Explore literature data and find open WGS databases
-- Create a pipeline for WGS data analysis
-- Test the pipeline on different samples
-- Count viral load in testing data
-- Create a table of viral load for samples from 1000 Genomes
-- Perform GWAS
+- [x] Explore literature data and find open WGS databases
+- [x] Create a pipeline for WGS data analysis
+- [x] Test the pipeline on different samples
+- [x] Count viral load in testing data
+- [x] Create a table of viral load for samples from 1000 Genomes
+- [x] Perform GWAS
 
 ## Methods (Юра, проверь, всё ли верно)
 #### Searching for viral reads in WGS data
-The bash-script was written in order to extract reads from alignment files (samtools), identify the viral reads using Kraken2 (works with RefSeq database), parse report files to get information about viral representation and count viral load (awk, grep, sed, etc). 
-__ссылка на скрипт__
+The [bash-script](__ссылка на скрипт__) was written in order to extract reads from alignment files (samtools), identify the viral reads using Kraken2 (works with RefSeq database), parse report files to get information about viral representation and count viral load (awk, grep, sed, etc). 
+
 #### GWAS
 про подготовку данных и Plink
