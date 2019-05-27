@@ -29,7 +29,7 @@ Characterize viral load and representation in human WGS data and search for poss
 
 ## Methods (Юра, проверь, всё ли верно)
 #### Searching for viral reads in WGS data
-The [bash-script](__ссылка на скрипт__) was written in order to extract reads from alignment files (samtools), identify the viral reads using Kraken2 (works with RefSeq database), parse report files to get information about viral representation and count viral load (awk, grep, sed, etc). 
+The [bash-script](https://github.com/Alisa1195/Searching-for-latent-viruses-in-human-whole-genome-sequencing-data/blob/master/scripts/processing_script_v6_with_comments.sh) was written in order to extract reads from alignment files (samtools), identify the viral reads using Kraken2 (works with RefSeq database), parse report files to get information about viral representation and count viral load (awk, grep, sed, etc). 
 
 #### GWAS
 про подготовку данных и Plink
