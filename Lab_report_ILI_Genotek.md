@@ -1,3 +1,5 @@
+## Searching for latent viruses in human whole genome sequencing data
+
 **At the start of the project, we faced a challenge of developing a
 pipeline for fast viral load and representation assessment in multiple
 samples. The test WGS sample (raw reads) of uterine tissue of a woman
@@ -8,7 +10,7 @@ of viruses identification (BLAST, Kraken):**
 
 ### Pre-processing
 
-#### Deduplication + adapter trimming
+#### Deduplication + adapter trimming <br />
 
 `~/tools/bbmap/clumpify.sh in1=~/data/HPV/raw/mv8970.82B476AA6.1.fastq.gz in2=~/data/HPV/raw/mv8970.82B476AA6.2.fastq.gz out1=F_dedup.fastq.gz out2=R_dedup.fastq.gz dedupe`
 
@@ -33,7 +35,7 @@ Pairs that were too short: 1,083,475 (2.2%) <br /> Pairs with too many
 N: 1,049 (0.0%) <br /> Pairs written <br /> (passing filters):
 47,084,940 (97.7%)<br />
 
-(AT)n sequence trimming
+(AT)n sequence trimming <br />
 
 cutadapt -minimum-length 16 -a
 ATATATATATATATATATATATATATATATATATATATATATATATATAT -A
@@ -46,14 +48,14 @@ Total read pairs processed: 47,084,940 <br /> Read 1 with adapter:
 Pairs that were too short: 1,451,924 (3.1%) <br /> Pairs written
 (passing filters): 45,633,016 (96.9%) <br />
 
-One more TruSeq adapter trimming and quality trimming
+One more TruSeq adapter trimming and quality trimming <br />
 
 cutadapt -minimum-length 16 -q 30,30 --pair-filter=any <br /> -a
 AGATCGGAAGAGCACACGTCTGAACTCCAGTCACAGCG <br /> -o F\_dedup\_tr5.fastq.gz
 <br /> -p R\_dedup\_tr5.fastq.gz <br /> F\_dedup\_tr2.fastq.gz
 R\_dedup\_tr2.fastq.gz <br />
 
-Pairs written (passing filters): 40,198,889 (88.4%)
+Pairs written (passing filters): 40,198,889 (88.4%) <br />
 
 **Pipeline:** <br /> Adapter trimming and quality trimming
 `cutadapt --interleaved --trim-n --max-n 0.5 -m 20 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCACAGCGATAGATCTCGTAT -A AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTTCAGAGCCGTGTAGATCT input.1.fastq.gz input.2.fastq.gz | cutadapt --interleaved -m 20 -a ATATATATATATATATATATATATATATATATATATATATATATATATAT -A ATATATATATATATATATATATATATATATATATATATATATATATATAT - | cutadapt --interleaved -m 20 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCACAGCG - | cutadapt --interleaved -m 20 -q 30,30 -o F_output.fastq.gz -p R_output.fastq.gz -`
@@ -88,11 +90,11 @@ sam-файл of 25Gb
 
 `samtools view -S -b alignment_test_3.sam > alignment_test_3.bam`
 
-file has shrinked to 8Gb
+file has shrinked to 8Gb <br />
 
-**The test alignment statistics**
+**The test alignment statistics** <br />
 
-samtools flagstat alignment\_test\_3.bam
+samtools flagstat alignment\_test\_3.bam <br />
 
 output: <br /> 83078254 + 0 in total (QC-passed reads + QC-failed
 reads)<br /> 0 + 0 secondary<br /> 2680476 + 0 supplementary<br /> 0 + 0
@@ -111,28 +113,28 @@ unmapped
 
 `samtools view -b -f 4 alignment_test_3.bam > unmapped_test.bam (single-end)`
 
-To get paired-end:
+To get paired-end: <br />
 
-**R1 & R2 unmapped**
+**R1 & R2 unmapped** <br />
 
 `samtools view -u -f 12 -F 256 alignment_test_sorted.bam > f1_unmap_unmap.bam`
 
 #### Resulting pipeline:
 
-1.  align + convert to bam + sort
+1.  align + convert to bam + sort <br />
 
 `bwa mem -t 16 /home/g1195alisa/GRCh38_2013/GCA_000001405.15_GRCh38_genomic.fna /home/orlov239/data/HPV/processed/F_dedup_tr5.fastq.gz /home/orlov239/data/HPV/processed/R_dedup_tr5.fastq.gz | samtools view -S -@ 16 -b | samtools sort -@ 16 -o alignment_sorted.bam.gz`
 
 1.  extract unmapped reads <br />
 
-------------------------------------------------------------------------
+`samtools view -u -f 12 -F 256 alignment_test_sorted.bam > f1_unmap_unmap.bam`
 
-1.  Convert bam to fastq
+1.  Convert bam to fastq <br /> 
 
 `samtools bam2fq f1_unmap_unmap.bam > unmap_unmap.fastq`
 
 *Summary of the alignment step: the speed needs improvement, some
-commands should be combined for convenience.*
+commands should be combined for convenience.* <br />
 
 ### De novo assembly
 
@@ -145,7 +147,7 @@ time, considering the fact we needed to analyse hundreds of genomes
 
 ### Alignment of reads in blast.
 
-We've got unmapped reads (fastq). Next, we should convert them to fasta
+We've got unmapped reads (fastq). Next, we should convert them to fasta <br />
 
 `$ paste - - - - < unmapped_test.fastq | cut -f 1,2 | sed 's/^@/>/' | tr "\t" "\n" > /home/nadya379/unmapped_reads.fasta`
 The other convertation method <br />
