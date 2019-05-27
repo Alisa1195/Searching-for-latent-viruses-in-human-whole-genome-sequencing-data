@@ -371,16 +371,16 @@ Kraken2
 
 __Suspicious results: lots of exotic viruses, while cosmopolitan ones are not found: need to use some threshold - Kraken has confidence score option - set 0,65.__
 
-No viruses found in WES samples, which is expected.<br />
+No viruses found in WES samples, which was expected.<br />
 
 ### Viral load estimation
-На примере HPV<br />
-Использованные файлы:
-`/home/g1195alisa/GRCh38_2013/GCA_000001405.15_GRCh38_genomic.fna`
-`/home/orlov239/data/reference/HPV16_alphaPV9_RefSeq.fna (RefSeq NC_001526, ftp://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Alphapapillomavirus_9/latest_assembly_versions/GCF_000863945.3_ViralProj15505)`
-`/home/g1195alisa/alignment/alignment_sorted.bam.gz`
-`/home/orlov239/data/HPV/processed/F_dedup_tr5.fastq.gz`
-`/home/orlov239/data/HPV/processed/R_dedup_tr5.fastq.gz`
+counted for HPV<br />
+Used fies:
+`GCA_000001405.15_GRCh38_genomic.fna`
+`HPV16_alphaPV9_RefSeq.fna (RefSeq NC_001526, ftp://ftp.ncbi.nlm.nih.gov/genomes/refseq/viral/Alphapapillomavirus_9/latest_assembly_versions/GCF_000863945.3_ViralProj15505)`
+`alignment_sorted.bam.gz`
+`F_dedup_tr5.fastq.gz`
+`R_dedup_tr5.fastq.gz`
 Формула для подсчета вирусного титра (количество копий вирусного генома на один клеточный геном): <br />
 
 C=2*(number of reads mapped to virus genome/virus genom size)/(number of reads mapped to human genome/human genome size) <br />
@@ -389,18 +389,17 @@ C=2*(number of reads mapped to virus genome/virus genom size)/(number of reads m
 C=2*(virus genome coverage/human genome coverage)<br />
 
 
-__Вариант 1.__ Рассматриваем количество ридов из предобработанных fastq, выровнявшихся на человека или HPV <br />
-A) Считаем количество ридов, которые “правильно” выровнялись на человека)
-
+__Method 1.__ Assess the number of aligned (to human or HPV) reads from pre-processed fastq <br />
+A) Count amount of reads correctly aligned to human
 `samtools view -c -q 10 -f 3 -F 2316 -@ 8 /home/g1195alisa/alignment/alignment_sorted.bam.gz`
 
--q 10 (отсечка по MAPQ>10) <br />
+-q 10 (MAPQ>10) <br />
 -f 3 (read paired (0x1) and read mapped in proper pair (0x2)) <br />
 -F 2316 (read unmapped (0x4), mate unmapped (0x8), not primary alignment (0x100) and supplementary alignment (0x800)) <br />
 59,489,753.00  <br />
 
 
-B) Выравниваем первоначальные fastq файлы на HPV и считаем количество выровнявшихся ридов (MAPQ>10) 
+B) Align primary fastq files to HPV and count aligned reads (MAPQ>10) 
 
 `bwa mem -t 8 /home/orlov239/data/reference/viral_RefSeq/HPV16_alphaPV9_RefSeq.fna /home/orlov239/data/HPV/processed/F_dedup_tr5.fastq.gz` `/home/orlov239/data/HPV/processed/R_dedup_tr5.fastq.gz | samtools view -@ 8 -b | samtools sort -@ 8 -o /home/orlov239/data/HPV/aligned_to_HPV/aligned_to_HPV16.bam`
 
@@ -409,12 +408,12 @@ B) Выравниваем первоначальные fastq файлы на HPV
 
 C= 523.72 <br />
 
-__Вариант 2.__ Выравниваем риды, которые не выровнялись на человека, на HPV<br />
+__Method 2.__ Align unmapped reads to HPV<br />
 
-A) Экстрагируем single-end риды, которые не выровнялись на человека 
+A) Extract unmapped single-end reads from the alignment file
 `samtools fastq -@ 8 -f 4 -F 0x900 /home/g1195alisa/alignment/alignment_sorted.bam.gz > /home/orlov239/data/HPV/unmapped/unmapped_to_GRCh38.fastq`
 
-B) Выравниваем их на HPV и считаем количество выровнявшихся
+B) Align them to HPV and count aligned reads
 `bwa mem -t 8 /home/orlov239/data/reference/viral_RefSeq/HPV16_alphaPV9_RefSeq.fna /home/orlov239/data/HPV/unmapped/unmapped_to_GRCh38.fastq | samtools view -@ 10 -b | samtools sort -@ 10 -o` `/home/orlov239/data/HPV/aligned_to_HPV/aligned_to_HPV16_from_unmapped_to_GRCh38.bam`
 
 `samtools view -c -q 10 -F 2308 -@ 8 /home/orlov239/data/HPV/aligned_to_HPV/aligned_to_HPV16_from_unmapped_to_GRCh38.bam`
@@ -423,46 +422,46 @@ B) Выравниваем их на HPV и считаем количество �
 
 C=  107.77 <br />
 
-__Вариант 3.__ Используем количество ридов, которые Kraken классифицировал как HPV <br />
+__Method 3.__ Use number of reads, classified as HPV by Kraken2 <br />
 
-А) Подаем на вход Kraken то, что не выровнялось на человека
+А) Process unmapped reads with Kraken
 `/home/orlov239//tools/kraken2/kraken2 --fastq-input --use-names --db ./databases/standart --threads 7 --output ~/data/HPV/reports/kraken2/1st_try/kraken_output --classified-out ~/data/HPV/reports/kraken2/1st_try/kraken_output_clssified_seq.fastq --unclassified-out ~/data/HPV/reports/kraken2/1st_try/kraken_output_unclssified_seq.fastq /home/orlov239/data/HPV/unmapped/unmapped_to_GRCh38.fastq`
 
-В) Считаем количество ридов, классифицированных как HPV 
+В) Count HPV reads
 `awk '$1=="C" {print $0}' /home/orlov239/~/data/HPV/reports/kraken2/1st_try/kraken_output | grep -i papillo | cut -f 3 | sort | uniq -c | head`
 
 7,086.00<br />
 
 C=   104.16  <br />
 
-__Варианты 4 и 5.__ Подсчет с использованием среднего или медианного значений покрытия геномов. <br />
+__Methods 4 and 5.__ Count viral load using mean and median genome coverage<br />
 
-Выбор случайных участков человеческого генома для подсчета покрытия<br />
+Choose random parts of human genome for counting the coverage <br />
 
-Сначала строим index .bam файла (samtools index)<br />
-Создаем файл GRCh38_intervals_4x2000x22.bed, содержащий информацию о длине интервалов и хромосомах, на которых они локализованы в формате:<br />
+Buid index of the .bam file (samtools index)<br />
+Create file GRCh38_intervals_4x2000x22.bed, containing intervals' lengths and their localization in chromosomes:<br />
 chr_name	interval_start	interval_end<br />
-Важна только длина, но не конкретные значения начала и конца отрезка.<br />
+Only the total length maters<br />
 
-Выбираем случайные интервалы: 
+Choose random intervals: 
 `bedtools shuffle -chrom -noOverlapping -i GRCh38_int_rand_4x2000x22_sort.bed -g ~/data/reference/GRCh38/GRCh38_chrName_chrLen > GRCh38_int_rand_4x2000x22.bed`
-Сортируем его:
+Sorting:
 `sort -k1,1 -k2,2n GRCh38_int_rand_4x2000x22.bed > GRCh38_int_rand_4x2000x22_sort.bed`
 
 
-Оцениваем медианное покрытие человеческого генома
+Count median coverage of the human genome
 `bedtools coverage -hist -sorted -a GRCh38_int_rand_4x2000x22_sort.bed -b /home/g1195alisa/alignment/alignment_sorted.bam -g ~/data/reference/GRCh38/GRCh38_chrName_chrLen | grep "all" | awk 'BEGIN {sum=0}; {sum+=$3}; (sum>=$4/2) {print $2; exit}; END {print sum}`
 1<br />
 
-Оцениваем среднее покрытие человеческого генома
+Count mean coverage of the human genome
 `samtools depth -a /home/g1195alisa/alignment/alignment_sorted.bam.gz -b GRCh38_intervals.bed | awk 'BEGIN {sum=0; num=0}; {sum+=$3; num+=1}; END {print sum/num}'`
 2.10953<br />
 
-Считаем медианное покрытие всего вирусного генома
+Count median coverage of the viral genome
 `bedtools genomecov -ibam /home/orlov239/data/HPV/aligned_to_HPV/aligned_to_HPV16_from_unmapped_to_GRCh38.bam | grep "genome" | awk 'BEGIN {sum=0}; {sum+=$3}; (sum>=4953) {print $2; exit}; END {print sum}'`
 94<br />
 
-Считаем среднее покрытие всего вирусного генома
+Count mean coverage of the human genome
 `bedtools genomecov -d -ibam ~/data/HPV/aligned_to_HPV/aligned_to_HPV16_from_unmapped_to_GRCh38.bam | awk 'BEGIN {sum=0; num=0}; {sum+=$3; num+=1}; END {print sum/num}'`
 90.5<br />
 
@@ -470,55 +469,54 @@ Cmed=188 <br />
 
 Cavr=89.12  <br />
 
-__Все методы, за исключением 1-ого, дали сходные значения.__ <br />
+__All methods except for the first one have shown similar results__ <br />
 
-Ввиду его простоты, целесообразно использовать метод №3
+We use 3rd method as the simplest one
 
-__Итак, мы определились с методом подсчета нагрузки, параметрами запуска Кракена и разобрались с парсингом отчетных файлов для получения нужной информации. Далее перед нами стояла задача прогнать наш пайплайн на нескольких европейских популяциях из 1000 Genomes и представить по ним статистические данные подсчета нагрузки и представленности вирусов. Каждая из популяций включала в себя около сотни образцов, пэтому нужно было написать единый цикл, который будет запускать все команды пайплайна на всех образцах, выбирая из каждого образца риды одного запуска секвенатора. Цикл был реализован на bash и находится по ссылке *ссылка*.
+__So, we've chosen the method to count the viral load, fine-tuned the Kraken2 parameters, parsed report files to extract the information needed. Next, we needed to apply our pipeline to several european populations from 1000 Genomes and provide some statistics for counting viral lad and representation. Each population involved about a hundred of samples, so we needed the united cycle, to apply all command for all sample, choosing from every sample only the reads from the one launch. We've developed the bash-cycle, the code is also provided in this repo.
 
 ## 1000 Genomes:
 
-#### 1. Достаем риды, которые выровнялись на декой последовательности вирусов
+#### 1. Extract reads mapped to decoy sequences
 
 `samtools view -h -@ 8 /home/nadya379/1000_genomes_cram/data_cram/CEU/*.low_coverage.cram chrEBV chrUn_JTFH01000690v1_decoy > /home/nadya379/1000_genomes_cram/data_unmapped_bam/*_decoy.bam`
 
-#### 2. Достаем парные риды, которые никуда не выровнялись
+#### 2. Extract paired unmapped reads
 
 `samtools view -h -f 12 -F 256 -@ 8 /home/nadya379/1000_genomes_cram/data_cram/CEU/*low_coverage.cram > /home/nadya379/1000_genomes_cram/data_unmapped_bam/*_unmapped.bam`
 
-#### 3. Сливаем два файла (невыровненные и выровненные на декой)
-
+#### 3. Merge two files (1 and 2)
 `samtools merge /home/nadya379/1000_genomes_cram/data_unmapped_bam/*.bam /home/nadya379/1000_genomes_cram/data_unmapped_bam/*_decoy.bam /home/nadya379/1000_genomes_cram/data_unmapped_bam/*_unmapped.bam -@ 8`
 
-#### 4. Конвертируем в парные фаста файлы
+#### 4. Convert to paired fasta
 
 `samtools fasta -1 /home/nadya379/1000_genomes_cram/data_paired_fasta/*_1.fasta -2 /home/nadya379/1000_genomes_cram/data_paired_fasta/*_2.fasta -@ 8 /home/nadya379/1000_genomes_cram/data_unmapped_bam/*.bam`
 
-#### 5. Запускаем кракен на парных ридах
+#### 5. Launch Kraken2 in paired-end mode
 
 `/home/orlov239/tools/kraken2/kraken2 —use-names —db /home/orlov239/tools/kraken2/databases/standart —threads=8 —report /home/nadya379/1000_genomes_cram/kraken_output_report/*_kraken_report —output /home/nadya379/1000_genomes_cram/kraken_output_report/*_kraken_output —confidence 0.65 —paired /home/nadya379/1000_genomes_cram/data_paired_fasta/*_1.fasta /home/nadya379/1000_genomes_cram/data_paired_fasta/*_2.fasta`
 
 
-Bash-цикл для запуска пайплайна для всех образцов:<br/> 
-__запускать нужно из папки с cram-файлами (!)__  
+Bash-code for applying the pipeline for all samples:<br/> 
+__should be launched from the directory with cram-files (!!!)__  
 
-__UPD:__ текущая версия скрипта *ссылка на гитхаб*
+__UPD:__ current version of the bash-script *ссылка на гитхаб*
 
 ### GWAS
 
-#### Подготовка данных для GWAS
+#### Preparing the data for GWAS
 
-vcf-файлы с SNP для 1000 геномов скачаны с ... <br/> 
+vcf-files with SNPs for 1000 Genomes were downloaded from .... <br/> 
 
-На основе отчетных фалов Кракена получены таблицы следющего вида: <br/> 
+Using the Kraken2 report files we've made the table with the following columns: <br/> 
 1) sample ID <br/> 
 2) population  <br/> 
-3) EBV reads <br/> 
-4) EBV load  <br/> 
+3) EBV reads* <br/> 
+4) EBV load*  <br/> 
 
-*Для аденовируса, соответственно, adenovirus reads & adenovirus load
+*adenovirus reads & adenovirus load for adenovirus
 
-Таблицы получали отдельно для каждой популяции, а потом объединяли в одну общую таблицу:
+We've made separate files fr each population and then merged them:
 
 `cat /home/1000_genomes/kraken_output_report/IBS/viral_load_est_general_2019-05-09-Thu.07\:35\:03 | cut -f 2 | uniq | sed 's/^/ IBS\t /' > ids_IBS > TSI_IDs`
 
@@ -526,10 +524,9 @@ vcf-файлы с SNP для 1000 геномов скачаны с ... <br/>
 
 `paste TSI_IDs TSI_EBV > EBV_TSI_report`
 
-После исполнения вышеуказанных команд для всех популяций, все файлы сконкатенировали в один: 
 `cat EBV_GBR_report EBV_IBS_report EBV_FIN_report EBV_TSI_report_new EBV_TSI_report > EBV_report`
 
 
-GWAS проводился компанией Genotek с использованием программы __Plink__ <br/> 
+GWAS was perdormed by Genotek using the soft __Plink__ <br/> 
 
-__Здесь надо написаь небольшое заключение о том, что мы в итоге получили__
+__Kraken and GWAS reports, plots and scripts can be found in this repository__
