@@ -32,4 +32,24 @@ Characterize viral load and representation in human WGS data and search for poss
 The [bash-script](https://github.com/Alisa1195/Searching-for-latent-viruses-in-human-whole-genome-sequencing-data/blob/master/scripts/processing_script_v6_with_comments.sh) was written in order to extract reads from alignment files (samtools), identify the viral reads using Kraken2 (works with RefSeq database), parse report files to get information about viral representation and count viral load (awk, grep, sed, etc). 
 
 #### GWAS
-про подготовку данных и Plink
+For performing the GWAS viral data should be represented this way:  
+
+population | Donor ID | EBV reads | EBV load
+------------ | ------------- | ------------- | -------------
+СЮДА | NAДО |ПРИМЕР | СТРОКИ
+
+It has been done using command line utilities (awk, grep, sed, paste, etc) - the exact commands provided in the [lab report](https://github.com/Alisa1195/Searching-for-latent-viruses-in-human-whole-genome-sequencing-data/blob/master/Lab_report_ILI_Genotek.md)
+
+The final tables for EBV and adenoviruses were used for performing the GWAS (made by Genotek using [Plink](http://zzz.bwh.harvard.edu/plink/))
+
+## Scripts
+
+- __processing_script_v6.sh__ - processes alignment files and provide files with viral load and representation
+- __EBV_viral_load_script.R__	- builds plots representing EBV load distribution
+- __adeno_viral_load_script.R__	- builds plots representing adenoviral load distribution
+
+all these scripts can be found [here](https://github.com/Alisa1195/Searching-for-latent-viruses-in-human-whole-genome-sequencing-data/tree/master/scripts)
+
+#### Usage examples
+
+Юра, сюда надо кратко примеры команд запуска скриптов
