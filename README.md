@@ -53,3 +53,33 @@ all these scripts can be found [here](https://github.com/Alisa1195/Searching-for
 #### Usage examples
 
 Юра, сюда надо кратко примеры команд запуска скриптов
+
+## Results
+
+![Вот сюда можно писать для себя пометку что за картинка](а сюда пишешь ссылку на неё) - она появится 
+
+
+
+
+## References 
+__(пока набросала статьи из нашего литобзора - надо бы еще статью про 8000 виромов добавить)__
+#### Viruses and latency
+- Gelderblom, Hans R. 1996. “Structure and Classification of Viruses.” In Medical Microbiology, edited by Samuel Baron, 4th ed. Galveston (TX): University of Texas Medical Branch at Galveston. http://www.ncbi.nlm.nih.gov/books/NBK8174/.
+- Grinde, Bjørn. 2013. “Herpesviruses: Latency and Reactivation – Viral Strategies and Host Response.” Journal of Oral Microbiology 5 (October). https://doi.org/10.3402/jom.v5i0.22766.
+- Lieberman, Paul M. 2016. “Epigenetics and Genetics of Viral Latency.” Cell Host & Microbe 19 (5): 619–28. https://doi.org/10.1016/j.chom.2016.04.008.
+- Mahy, Brian W.J. 2006. “The Diversity of Viruses Infecting Humans.” Biodiversity 7 (1): 34–37. https://doi.org/10.1080/14888386.2006.9712792.
+
+#### Searching for viruses, virome studies, GWAS
+
+- Paez-Espino D. et al. Uncovering Earth’s virome. Nature. 2016
+- Simmonds P. et al. Virus taxonomy in the age of metagenomics. Nat Rev Microbiol. 2017.
+- Edwards R.A., Rohwer F. Viral metagenomics. Nat Rev Microbiol. 2005.
+- Nooij S., Schmitz D., Vennema H., Kroneman A., Koopmans M.P.G. Overview of Virus Metagenomic Classification Methods and Their Biological Applications. Front Microbiol. 2018.
+- Paez-Espino D. et al. IMG/VR v.2.0: an integrated data management and analysis system for cultivated and environmental viral genomes. Nucleic Acids Res. 2019.
+- Paez-Espino D., Pavlopoulos G.A., Ivanova N.N., Kyrpides N.C. Nontargeted virus sequence discovery pipeline and virus clustering for metagenomic data. Nat Protoc. 2017.
+- Dehghan, Abbas. 2018. “Genome-Wide Association Studies.” Methods in Molecular Biology (Clifton, N.J.) 1793: 37–49. https://doi.org/10.1007/978-1-4939-7868-7_4.
+- A.T.Marees et al, 2018. A tutorial on conducting genome‐wide association studies: Quality control and statistical analysis (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6001694/)
+- R.Mandage et al, 2017. Genetic factors affecting EBV copy number in lymphoblastoid cell lines derived from the 1000 Genome Project samples (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5487016/)
+
+
+
