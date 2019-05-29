@@ -46,7 +46,7 @@ all these scripts can be found [here](https://github.com/Alisa1195/Searching-for
 
 #### Usage examples
 
-The only mandatory paramenter is "-id" which indicates path to the file containig length of corresponding reference sequences (kraken_id_RefSeq_id_lenght.tsv).
+The only mandatory paramenter is "-id" which indicates a path to the file containing length of corresponding reference sequences (kraken_id_RefSeq_id_lenght.tsv).
 Before use change the variable "path_to_database" in the beginning of the script assigning a path to Kraken2-build database you want to use. As an option it can be provided every time using "-db" parameter. 
 
 Basic usage:
