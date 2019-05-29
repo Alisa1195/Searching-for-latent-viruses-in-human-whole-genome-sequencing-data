@@ -29,7 +29,7 @@ Characterize viral load and representation in human WGS data and search for poss
 
 ## Methods (Юра, проверь, всё ли верно)
 #### Searching for viral reads in WGS data
-The [bash-script](https://github.com/Alisa1195/Searching-for-latent-viruses-in-human-whole-genome-sequencing-data/blob/master/scripts/processing_script_v6_with_comments.sh) was written in order to extract reads from alignment files (samtools), identify the viral reads using Kraken2 (works with RefSeq database), parse report files to get information about viral representation and count viral load (awk, grep, sed, etc). 
+The [bash-script](https://github.com/Alisa1195/Searching-for-latent-viruses-in-human-whole-genome-sequencing-data/blob/master/scripts/processing_script_v6_with_comments.sh) was written in order to extract reads unmapped to GRCh38 from alignment files (samtools), identify the viral reads using Kraken2 (used RefSeq database containing complete genomes for the bacterial, archaeal, and viral domains, along with the human genome and a collection of known vectors (UniVec_Core)), parse report files to get information about viral representation and count viral load (awk, grep, sed, etc). 
 
 #### GWAS
 For performing the GWAS viral data should be represented this way:  
@@ -51,8 +51,17 @@ The final tables for EBV and adenoviruses were used for performing the GWAS (mad
 all these scripts can be found [here](https://github.com/Alisa1195/Searching-for-latent-viruses-in-human-whole-genome-sequencing-data/tree/master/scripts)
 
 #### Usage examples
+The only mandatory paramenter is "-id" which indicates path to the file containig length of corresponding reference sequences (kraken_id_RefSeq_id_lenght.tsv).
+Before use change the variable "path_to_database" in the beginning of the script assigning a path to Kraken2-build database you want to use. As an option it can be provided every time using "-db" parameter. 
 
-Юра, сюда надо кратко примеры команд запуска скриптов
+Basic usage:
+
+processing_script_v6.sh -id <path_to>/kraken_id_RefSeq_id_lenght.tsv
+
+To view help:
+processing_script_v6.sh -h
+
+##### Юра, сюда надо кратко примеры команд запуска скриптов
 
 ## Results
 ![The viral load distribution of Epstein-Barr virus in 1000 Genomes data](https://github.com/Alisa1195/Searching-for-latent-viruses-in-human-whole-genome-sequencing-data/tree/master/results/EBV_viral_load.png)
