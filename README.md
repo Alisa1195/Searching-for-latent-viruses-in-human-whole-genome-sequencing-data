@@ -14,7 +14,7 @@ __Supervisors:__ Valery Ilinsky, Alexander Rakitko (Genotek, Moscow)
     
   Whole-genome human sequencing data also contain sequences of dsDNA-viruses (or integrated RNA-viruses), because they are technically indistinguishable from the host DNA. These sequences stay unaligned and can be identified using databases. There are six viral families that store their genetic material in dsDNA form: Adenoviridae, Herpesviridae, Poxviridae and Polyomaviridae (linear dsDNA), Papovaviridae and Hepadnaviridae (circular dsDNA).
     
-  In this project we ....
+  In this project we were searching for viruses in WGS data from private Genotek database and 1000 Genomes project. On 5 population from 1000 Genomes project we performed GWAS (genome-wide association studies) for determine the associations between viral load level (EBV, Epstein-Barr virus) / viral presence (Mastadenoviruses) and SNP in human genome.
 
 ## Goal
 Characterize viral load and representation in human WGS data and search for possible association between viral load and genetic variations
@@ -55,10 +55,11 @@ all these scripts can be found [here](https://github.com/Alisa1195/Searching-for
 Юра, сюда надо кратко примеры команд запуска скриптов
 
 ## Results
+![The viral load distribution of Epstein-Barr virus in 1000 Genomes data](https://github.com/Alisa1195/Searching-for-latent-viruses-in-human-whole-genome-sequencing-data/tree/master/results/EBV_viral_load.png)
 
-![Вот сюда можно писать для себя пометку что за картинка](а сюда пишешь ссылку на неё) - она появится 
+![The viral load distribution of Mastadenoviruses in 1000 Genomes data](https://github.com/Alisa1195/Searching-for-latent-viruses-in-human-whole-genome-sequencing-data/tree/master/results/adenoviruses_viral_load.png)
 
-
+GWAS reports can be found [here](https://github.com/Alisa1195/Searching-for-latent-viruses-in-human-whole-genome-sequencing-data/tree/master/results/GWAS_report)
 
 
 ## References 
