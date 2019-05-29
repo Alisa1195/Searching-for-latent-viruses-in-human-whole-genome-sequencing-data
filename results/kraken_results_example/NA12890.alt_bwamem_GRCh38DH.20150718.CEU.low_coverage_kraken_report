@@ -1,0 +1,66 @@
+ 27.17	23594	23594	U	0	unclassified
+ 72.83	63260	1377	R	1	root
+ 70.93	61605	0	D	10239	  Viruses
+ 70.93	61605	0	D1	35237	    dsDNA viruses, no RNA stage
+ 70.93	61605	0	O	548681	      Herpesvirales
+ 70.93	61605	0	F	10292	        Herpesviridae
+ 70.93	61605	0	F1	10374	          Gammaherpesvirinae
+ 70.93	61605	9	G	10375	            Lymphocryptovirus
+ 70.92	61596	61138	S	10376	              Human gammaherpesvirus 4
+  0.53	458	458	S1	12509	                Human herpesvirus 4 type 2
+  0.25	215	0	R1	131567	  cellular organisms
+  0.23	204	0	D	2759	    Eukaryota
+  0.23	204	0	D1	33154	      Opisthokonta
+  0.23	204	0	K	33208	        Metazoa
+  0.23	204	0	K1	6072	          Eumetazoa
+  0.23	204	0	K2	33213	            Bilateria
+  0.23	204	0	K3	33511	              Deuterostomia
+  0.23	204	0	P	7711	                Chordata
+  0.23	204	0	P1	89593	                  Craniata
+  0.23	204	0	P2	7742	                    Vertebrata
+  0.23	204	0	P3	7776	                      Gnathostomata
+  0.23	204	0	P4	117570	                        Teleostomi
+  0.23	204	0	P5	117571	                          Euteleostomi
+  0.23	204	0	P6	8287	                            Sarcopterygii
+  0.23	204	0	P7	1338369	                              Dipnotetrapodomorpha
+  0.23	204	0	P8	32523	                                Tetrapoda
+  0.23	204	0	P9	32524	                                  Amniota
+  0.23	204	0	C	40674	                                    Mammalia
+  0.23	204	0	C1	32525	                                      Theria
+  0.23	204	0	C2	9347	                                        Eutheria
+  0.23	204	0	C3	1437010	                                          Boreoeutheria
+  0.23	204	0	C4	314146	                                            Euarchontoglires
+  0.23	204	0	O	9443	                                              Primates
+  0.23	204	0	O1	376913	                                                Haplorrhini
+  0.23	204	0	O2	314293	                                                  Simiiformes
+  0.23	204	0	O3	9526	                                                    Catarrhini
+  0.23	204	0	O4	314295	                                                      Hominoidea
+  0.23	204	0	F	9604	                                                        Hominidae
+  0.23	204	0	F1	207598	                                                          Homininae
+  0.23	204	0	G	9605	                                                            Homo
+  0.23	204	204	S	9606	                                                              Homo sapiens
+  0.01	11	0	D	2	    Bacteria
+  0.01	10	2	D1	1783272	      Terrabacteria group
+  0.01	7	0	P	201174	        Actinobacteria
+  0.01	7	0	C	1760	          Actinobacteria
+  0.01	5	0	O	85010	            Pseudonocardiales
+  0.01	5	0	F	2070	              Pseudonocardiaceae
+  0.01	5	0	G	65496	                Actinoalloteichus
+  0.01	5	5	S	2072503	                  Actinoalloteichus sp. AHMU CJ021
+  0.00	2	0	O	85009	            Propionibacteriales
+  0.00	2	0	F	31957	              Propionibacteriaceae
+  0.00	2	0	G	1912216	                Cutibacterium
+  0.00	2	2	S	1747	                  Cutibacterium acnes
+  0.00	1	0	P	1239	        Firmicutes
+  0.00	1	0	C	91061	          Bacilli
+  0.00	1	0	O	1385	            Bacillales
+  0.00	1	0	F	90964	              Staphylococcaceae
+  0.00	1	0	G	1279	                Staphylococcus
+  0.00	1	1	S	1282	                  Staphylococcus epidermidis
+  0.00	1	0	P	1224	      Proteobacteria
+  0.00	1	0	C	1236	        Gammaproteobacteria
+  0.00	1	0	O	72274	          Pseudomonadales
+  0.00	1	0	F	468	            Moraxellaceae
+  0.00	1	0	G	469	              Acinetobacter
+  0.00	1	1	S	40214	                Acinetobacter johnsonii
+  0.07	63	63	R1	28384	  other sequences

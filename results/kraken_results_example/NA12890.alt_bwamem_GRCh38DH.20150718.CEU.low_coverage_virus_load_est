@@ -1,0 +1,4 @@
+
+OK	ERR234329	203831169	10376	NC_007605.1	Human gammaherpesvirus 4	171823	61138	12.2196
+OK	ERR234329	203831169	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	458	0.0910416
+TE	ERR234329	203831169	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load

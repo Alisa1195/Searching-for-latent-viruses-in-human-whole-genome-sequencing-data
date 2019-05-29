@@ -1,0 +1,357 @@
+OK	SRR035022	39833804	10376	NC_007605.1	Human gammaherpesvirus 4	171823	126718	129.599
+OK	SRR035022	39833804	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	649	0.660143
+TE	SRR035022	39833804	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR035022	39833804	45455	NC_006146.1	Macacine gammaherpesvirus 4	171096	1	0.00102709
+OK	ERR050082	75968908	10376	NC_007605.1	Human gammaherpesvirus 4	171823	3243	1.73911
+OK	ERR050082	75968908	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	40	0.0213338
+TE	ERR050082	75968908	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR018111	16114203	10376	NC_007605.1	Human gammaherpesvirus 4	171823	7468	18.8804
+OK	SRR018111	16114203	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	32	0.0804611
+TE	SRR018111	16114203	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR032638	25775839	10376	NC_007605.1	Human gammaherpesvirus 4	171823	37412	59.131
+OK	SRR032638	25775839	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	177	0.278231
+TE	SRR032638	25775839	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR385751	161562382	10376	NC_007605.1	Human gammaherpesvirus 4	171823	197558	49.8163
+OK	SRR385751	161562382	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	1529	0.383453
+TE	SRR385751	161562382	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR162804	34326954	10376	NC_007605.1	Human gammaherpesvirus 4	171823	9262	10.9922
+OK	ERR162804	34326954	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	75	0.088526
+TE	ERR162804	34326954	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR257983	158407190	10376	NC_007605.1	Human gammaherpesvirus 4	171823	63994	16.4582
+OK	ERR257983	158407190	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	477	0.122008
+TE	ERR257983	158407190	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR032632	28325145	10376	NC_007605.1	Human gammaherpesvirus 4	171823	27449	39.4795
+OK	SRR032632	28325145	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	152	0.217428
+TE	SRR032632	28325145	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+TE	SRR032632	28325145	10374	Gammaherpesvirinae is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR023301	10883231	10376	NC_007605.1	Human gammaherpesvirus 4	171823	24295	90.9444
+OK	SRR023301	10883231	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	119	0.443031
+TE	SRR023301	10883231	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR009405	14214073	10376	NC_007605.1	Human gammaherpesvirus 4	171823	19600	56.1764
+OK	ERR009405	14214073	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	117	0.333512
+TE	ERR009405	14214073	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR011072	14080762	10376	NC_007605.1	Human gammaherpesvirus 4	171823	33446	96.7687
+OK	SRR011072	14080762	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	196	0.563994
+TE	SRR011072	14080762	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+TE	SRR011072	14080762	10374	Gammaherpesvirinae is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR022600	13574623	10376	NC_007605.1	Human gammaherpesvirus 4	171823	1474	4.42371
+OK	SRR022600	13574623	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	10	0.0298481
+TE	SRR022600	13574623	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+TE	SRR022600	13574623	10374	Gammaherpesvirinae is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR243106	3360818	10376	NC_007605.1	Human gammaherpesvirus 4	171823	2162	26.2076
+OK	ERR243106	3360818	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	17	0.20495
+OK	ERR257984	221613158	10376	NC_007605.1	Human gammaherpesvirus 4	171823	119533	21.974
+OK	ERR257984	221613158	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	867	0.158514
+TE	ERR257984	221613158	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR243107	2949056	10376	NC_007605.1	Human gammaherpesvirus 4	171823	9147	126.361
+OK	ERR243107	2949056	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	67	0.920527
+TE	ERR243107	2949056	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR006174	19900971	10376	NC_007605.1	Human gammaherpesvirus 4	171823	354	0.724679
+OK	SRR006174	19900971	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	2	0.00407193
+OK	SRR022594	19945519	10376	NC_007605.1	Human gammaherpesvirus 4	171823	33909	69.2606
+OK	SRR022594	19945519	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	162	0.32909
+TE	SRR022594	19945519	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR019044	96577	10376	NC_007605.1	Human gammaherpesvirus 4	171823	1	0.421835
+OK	SRR211275	76313031	10376	NC_007605.1	Human gammaherpesvirus 4	171823	79262	42.3139
+OK	SRR211275	76313031	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	614	0.325998
+TE	SRR211275	76313031	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+TE	SRR211275	76313031	10663	T4virus is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR211275	76313031	45455	NC_006146.1	Macacine gammaherpesvirus 4	171096	1	0.000536117
+TE	SRR211275	76313031	10292	Herpesviridae is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR035012	32948593	10376	NC_007605.1	Human gammaherpesvirus 4	171823	4741	5.86205
+OK	SRR035012	32948593	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	19	0.0233648
+TE	SRR035012	32948593	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR050083	120461164	10376	NC_007605.1	Human gammaherpesvirus 4	171823	202527	68.494
+OK	ERR050083	120461164	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	1649	0.554649
+TE	ERR050083	120461164	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR009408	24328262	10376	NC_007605.1	Human gammaherpesvirus 4	171823	14443	24.1859
+OK	ERR009408	24328262	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	73	0.121578
+TE	ERR009408	24328262	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR009413	25635796	10376	NC_007605.1	Human gammaherpesvirus 4	171823	4913	7.80758
+OK	ERR009413	25635796	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	17	0.0268687
+TE	ERR009413	25635796	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR243112	3063821	10376	NC_007605.1	Human gammaherpesvirus 4	171823	6035	80.2473
+OK	ERR243112	3063821	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	45	0.595105
+OK	SRR791305	18929010	10376	NC_007605.1	Human gammaherpesvirus 4	171823	13307	28.6397
+OK	SRR791305	18929010	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	116	0.248299
+TE	SRR791305	18929010	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR019046	3038088	10376	NC_007605.1	Human gammaherpesvirus 4	171823	215	2.88307
+OK	SRR019046	3038088	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	1	0.0133366
+OK	SRR020474	11086690	10376	NC_007605.1	Human gammaherpesvirus 4	171823	3268	12.0087
+OK	SRR020474	11086690	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	18	0.0657833
+OK	SRR020474	11086690	11856	NC_001514.1	Squirrel monkey retrovirus	8785	16	1.14994
+TE	SRR020474	11086690	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR233226	230536716	10376	NC_007605.1	Human gammaherpesvirus 4	171823	109725	19.3902
+OK	ERR233226	230536716	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	734	0.129003
+TE	ERR233226	230536716	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR233226	230536716	11856	NC_001514.1	Squirrel monkey retrovirus	8785	1	0.00345634
+OK	ERR243113	2967886	10376	NC_007605.1	Human gammaherpesvirus 4	171823	4742	65.0925
+OK	ERR243113	2967886	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	28	0.382257
+OK	ERR233225	189934679	10376	NC_007605.1	Human gammaherpesvirus 4	171823	244867	52.5222
+OK	ERR233225	189934679	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	1889	0.40297
+TE	ERR233225	189934679	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR233225	189934679	45455	NC_006146.1	Macacine gammaherpesvirus 4	171096	1	0.000215404
+OK	ERR233227	194416018	10376	NC_007605.1	Human gammaherpesvirus 4	171823	80369	16.8412
+OK	ERR233227	194416018	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	548	0.114207
+OK	ERR233227	194416018	11856	NC_001514.1	Squirrel monkey retrovirus	8785	85	0.348372
+TE	ERR233227	194416018	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+TE	ERR233227	194416018	35237	dsDNA viruses, no RNA stage is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR006143	17010695	10376	NC_007605.1	Human gammaherpesvirus 4	171823	6242	14.9492
+OK	SRR006143	17010695	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	34	0.0809845
+TE	SRR006143	17010695	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR162809	36733291	10376	NC_007605.1	Human gammaherpesvirus 4	171823	40117	44.4924
+OK	ERR162809	36733291	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	291	0.32098
+TE	ERR162809	36733291	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR022587	17692060	10376	NC_007605.1	Human gammaherpesvirus 4	171823	42085	96.9093
+OK	SRR022587	17692060	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	206	0.471774
+TE	SRR022587	17692060	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR385754	81868054	10376	NC_007605.1	Human gammaherpesvirus 4	171823	46517	23.148
+OK	SRR385754	81868054	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	339	0.167776
+TE	SRR385754	81868054	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR020471	16667012	10376	NC_007605.1	Human gammaherpesvirus 4	171823	11925	29.1486
+OK	SRR020471	16667012	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	60	0.145861
+TE	SRR020471	16667012	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+TE	SRR020471	16667012	10374	Gammaherpesvirinae is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR162808	34779578	10376	NC_007605.1	Human gammaherpesvirus 4	171823	29935	35.0648
+OK	ERR162808	34779578	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	556	0.647732
+TE	ERR162808	34779578	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR162810	33940980	10376	NC_007605.1	Human gammaherpesvirus 4	171823	49918	59.9169
+OK	ERR162810	33940980	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	445	0.531227
+TE	ERR162810	33940980	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+TE	ERR162810	33940980	1982251	Pa6virus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR243114	2917461	10376	NC_007605.1	Human gammaherpesvirus 4	171823	797	11.1294
+OK	ERR243114	2917461	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	2	0.027776
+OK	ERR162807	38295923	10376	NC_007605.1	Human gammaherpesvirus 4	171823	17223	18.322
+OK	ERR162807	38295923	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	127	0.134368
+TE	ERR162807	38295923	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR020473	18733905	10376	NC_007605.1	Human gammaherpesvirus 4	171823	20781	45.1913
+OK	SRR020473	18733905	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	79	0.170861
+TE	SRR020473	18733905	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR239333	213157692	10376	NC_007605.1	Human gammaherpesvirus 4	171823	1479034	282.679
+OK	ERR239333	213157692	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	10601	2.01507
+TE	ERR239333	213157692	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+TE	ERR239333	213157692	10374	Gammaherpesvirinae is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR239333	213157692	45455	NC_006146.1	Macacine gammaherpesvirus 4	171096	1	0.000191936
+OK	SRR035020	53020162	10376	NC_007605.1	Human gammaherpesvirus 4	171823	3009	2.31205
+OK	SRR035020	53020162	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	14	0.0106987
+OK	ERR162812	44427572	10376	NC_007605.1	Human gammaherpesvirus 4	171823	163308	149.752
+OK	ERR162812	44427572	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	1348	1.22937
+TE	ERR162812	44427572	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR162812	44427572	45455	NC_006146.1	Macacine gammaherpesvirus 4	171096	1	0.000920885
+OK	SRR023304	14192711	10376	NC_007605.1	Human gammaherpesvirus 4	171823	25896	74.3334
+OK	SRR023304	14192711	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	120	0.342579
+TE	SRR023304	14192711	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR023302	5841116	10376	NC_007605.1	Human gammaherpesvirus 4	171823	4331	30.2071
+OK	SRR023302	5841116	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	15	0.10405
+TE	SRR023302	5841116	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR393992	112907506	10376	NC_007605.1	Human gammaherpesvirus 4	171823	193057	69.6594
+OK	SRR393992	112907506	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	1482	0.531827
+TE	SRR393992	112907506	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR233302	203947367	10376	NC_007605.1	Human gammaherpesvirus 4	171823	38660	7.72255
+OK	ERR233302	203947367	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	293	0.0582096
+TE	ERR233302	203947367	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR211278	100151644	10376	NC_007605.1	Human gammaherpesvirus 4	171823	43948	17.8771
+OK	SRR211278	100151644	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	387	0.156566
+TE	SRR211278	100151644	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+TE	SRR211278	100151644	10663	T4virus is not a specie so we cannot extract reference sequence to count viral load
+TE	SRR211278	100151644	1982251	Pa6virus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR015476	26043793	10376	NC_007605.1	Human gammaherpesvirus 4	171823	10889	17.0334
+OK	ERR015476	26043793	129951	NC_001405.1	Human mastadenovirus C	35937	189	1.41356
+OK	ERR015476	26043793	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	87	0.13535
+OK	ERR015476	26043793	28285	AC_000008.1	Human adenovirus 5	35938	4	0.0299157
+TE	ERR015476	26043793	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR015475	19124945	10376	NC_007605.1	Human gammaherpesvirus 4	171823	5509	11.7352
+OK	ERR015475	19124945	129951	NC_001405.1	Human mastadenovirus C	35937	315	3.20824
+OK	ERR015475	19124945	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	47	0.0995732
+TE	ERR015475	19124945	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR015475	19124945	28285	AC_000008.1	Human adenovirus 5	35938	1	0.0101846
+OK	ERR009407	32773982	10376	NC_007605.1	Human gammaherpesvirus 4	171823	18307	22.7565
+OK	ERR009407	32773982	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	105	0.129809
+TE	ERR009407	32773982	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR233301	216397029	10376	NC_007605.1	Human gammaherpesvirus 4	171823	125502	23.6274
+OK	ERR233301	216397029	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	957	0.179187
+TE	ERR233301	216397029	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR239334	190756582	10376	NC_007605.1	Human gammaherpesvirus 4	171823	438170	93.5793
+OK	ERR239334	190756582	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	3112	0.661005
+TE	ERR239334	190756582	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR234321	196360841	10376	NC_007605.1	Human gammaherpesvirus 4	171823	460546	95.5509
+OK	ERR234321	196360841	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	3422	0.706106
+TE	ERR234321	196360841	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR234321	196360841	11856	NC_001514.1	Squirrel monkey retrovirus	8785	4	0.0162316
+OK	ERR234321	196360841	45455	NC_006146.1	Macacine gammaherpesvirus 4	171096	2	0.000416709
+OK	ERR243115	2854026	10376	NC_007605.1	Human gammaherpesvirus 4	171823	5237	74.7552
+OK	ERR243115	2854026	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	35	0.496884
+TE	ERR243115	2854026	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR035311	39529029	10376	NC_007605.1	Human gammaherpesvirus 4	171823	15236	15.7026
+OK	SRR035311	39529029	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	65	0.0666257
+TE	SRR035311	39529029	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR034927	36802724	10376	NC_007605.1	Human gammaherpesvirus 4	171823	6827	7.5573
+OK	SRR034927	36802724	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	32	0.0352302
+TE	SRR034927	36802724	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR037798	40076325	10376	NC_007605.1	Human gammaherpesvirus 4	171823	31995	32.5245
+OK	SRR037798	40076325	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	162	0.163784
+TE	SRR037798	40076325	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR009404	39425418	10376	NC_007605.1	Human gammaherpesvirus 4	171823	19517	20.1676
+OK	ERR009404	39425418	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	106	0.108937
+TE	ERR009404	39425418	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+TE	ERR009404	39425418	10374	Gammaherpesvirinae is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR009412	39325418	10376	NC_007605.1	Human gammaherpesvirus 4	171823	161008	166.798
+OK	ERR009412	39325418	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	884	0.910801
+TE	ERR009412	39325418	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+TE	ERR009412	39325418	10374	Gammaherpesvirinae is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR013164	44940316	10376	NC_007605.1	Human gammaherpesvirus 4	171823	5971	5.41287
+OK	ERR013164	44940316	129951	NC_001405.1	Human mastadenovirus C	35937	62	0.268727
+OK	ERR013164	44940316	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	52	0.0468826
+TE	ERR013164	44940316	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR029670	20618774	10376	NC_007605.1	Human gammaherpesvirus 4	171823	27066	53.4783
+OK	SRR029670	20618774	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	123	0.241706
+OK	SRR029670	20618774	11856	NC_001514.1	Squirrel monkey retrovirus	8785	39	1.50716
+TE	SRR029670	20618774	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR029674	33366781	10376	NC_007605.1	Human gammaherpesvirus 4	171823	30024	36.6582
+OK	SRR029674	33366781	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	168	0.204005
+TE	SRR029674	33366781	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR029674	33366781	11856	NC_001514.1	Squirrel monkey retrovirus	8785	10	0.238804
+OK	SRR029674	33366781	45455	NC_006146.1	Macacine gammaherpesvirus 4	171096	1	0.00122615
+OK	ERR243094	7633569	10376	NC_007605.1	Human gammaherpesvirus 4	171823	8120	43.3356
+OK	ERR243094	7633569	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	83	0.44055
+TE	ERR243094	7633569	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR385770	63752028	10376	NC_007605.1	Human gammaherpesvirus 4	171823	33738	21.5597
+OK	SRR385770	63752028	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	273	0.173506
+TE	SRR385770	63752028	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR162805	33093094	10376	NC_007605.1	Human gammaherpesvirus 4	171823	87302	107.474
+OK	ERR162805	33093094	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	682	0.83501
+TE	ERR162805	33093094	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+TE	ERR162805	33093094	10239	Viruses is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR162805	33093094	45455	NC_006146.1	Macacine gammaherpesvirus 4	171096	1	0.00123629
+OK	ERR009402	22920148	10376	NC_007605.1	Human gammaherpesvirus 4	171823	129502	230.184
+OK	ERR009402	22920148	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	744	1.31523
+TE	ERR009402	22920148	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+TE	ERR009402	22920148	10374	Gammaherpesvirinae is not a specie so we cannot extract reference sequence to count viral load
+TE	ERR009402	22920148	10292	Herpesviridae is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR257986	166367308	10376	NC_007605.1	Human gammaherpesvirus 4	171823	26677	6.5326
+OK	ERR257986	166367308	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	209	0.0509006
+TE	ERR257986	166367308	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR257987	181145515	10376	NC_007605.1	Human gammaherpesvirus 4	171823	250884	56.4238
+OK	ERR257987	181145515	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	1967	0.439968
+TE	ERR257987	181145515	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR257987	181145515	45455	NC_006146.1	Macacine gammaherpesvirus 4	171096	1	0.000225855
+OK	ERR015478	29504688	10376	NC_007605.1	Human gammaherpesvirus 4	171823	10445	14.4223
+OK	ERR015478	29504688	129951	NC_001405.1	Human mastadenovirus C	35937	735	4.85235
+OK	ERR015478	29504688	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	97	0.133207
+TE	ERR015478	29504688	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR234323	207977296	10376	NC_007605.1	Human gammaherpesvirus 4	171823	168341	32.9754
+OK	ERR234323	207977296	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	1236	0.240795
+TE	ERR234323	207977296	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+TE	ERR234323	207977296	10292	Herpesviridae is not a specie so we cannot extract reference sequence to count viral load
+TE	ERR234323	207977296	35237	dsDNA viruses, no RNA stage is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR162806	33905199	10376	NC_007605.1	Human gammaherpesvirus 4	171823	125840	151.206
+OK	ERR162806	33905199	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	1004	1.19981
+TE	ERR162806	33905199	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR257985	203229213	10376	NC_007605.1	Human gammaherpesvirus 4	171823	151364	30.3426
+OK	ERR257985	203229213	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	1205	0.24024
+TE	ERR257985	203229213	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR257988	207051055	10376	NC_007605.1	Human gammaherpesvirus 4	171823	203913	40.1222
+OK	ERR257988	207051055	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	1757	0.343826
+TE	ERR257988	207051055	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR257988	207051055	45455	NC_006146.1	Macacine gammaherpesvirus 4	171096	2	0.000395194
+OK	SRR385773	94962006	10376	NC_007605.1	Human gammaherpesvirus 4	171823	21687	9.30393
+OK	SRR385773	94962006	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	129	0.0550408
+OK	SRR385773	94962006	11856	NC_001514.1	Squirrel monkey retrovirus	8785	10	0.0839086
+TE	SRR385773	94962006	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR257989	176097968	10376	NC_007605.1	Human gammaherpesvirus 4	171823	351651	81.3531
+OK	ERR257989	176097968	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	2732	0.628595
+TE	ERR257989	176097968	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR257989	176097968	45455	NC_006146.1	Macacine gammaherpesvirus 4	171096	3	0.000696988
+OK	SRR385775	139195178	10376	NC_007605.1	Human gammaherpesvirus 4	171823	129665	37.9503
+OK	SRR385775	139195178	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	1069	0.31117
+OK	SRR385775	139195178	11856	NC_001514.1	Squirrel monkey retrovirus	8785	75	0.429332
+TE	SRR385775	139195178	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+TE	SRR385775	139195178	10374	Gammaherpesvirinae is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR257990	147265580	10376	NC_007605.1	Human gammaherpesvirus 4	171823	177172	49.0129
+OK	ERR257990	147265580	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	1375	0.378309
+OK	ERR257990	147265580	11856	NC_001514.1	Squirrel monkey retrovirus	8785	68	0.367929
+TE	ERR257990	147265580	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR257990	147265580	45455	NC_006146.1	Macacine gammaherpesvirus 4	171096	1	0.000277816
+OK	ERR009409	40964337	10376	NC_007605.1	Human gammaherpesvirus 4	171823	32082	31.906
+OK	ERR009409	40964337	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	157	0.155288
+TE	ERR009409	40964337	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR243110	3144308	10376	NC_007605.1	Human gammaherpesvirus 4	171823	9021	116.882
+OK	ERR243110	3144308	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	67	0.863365
+TE	ERR243110	3144308	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR009406	19018307	10376	NC_007605.1	Human gammaherpesvirus 4	171823	9435	20.211
+OK	ERR009406	19018307	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	53	0.112914
+TE	ERR009406	19018307	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR015474	28992541	10376	NC_007605.1	Human gammaherpesvirus 4	171823	6086	8.5519
+OK	ERR015474	28992541	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	58	0.0810562
+OK	ERR015474	28992541	129951	NC_001405.1	Human mastadenovirus C	35937	33	0.221709
+TE	ERR015474	28992541	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR015474	28992541	28285	AC_000008.1	Human adenovirus 5	35938	1	0.00671828
+OK	SRR741368	129744030	10376	NC_007605.1	Human gammaherpesvirus 4	171823	32983	10.3567
+OK	SRR741368	129744030	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	205	0.0640194
+TE	SRR741368	129744030	1910952	G4microvirus is not a specie so we cannot extract reference sequence to count viral load
+TE	SRR741368	129744030	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+TE	SRR741368	129744030	1910951	Alpha3microvirus is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR741368	129744030	129951	NC_001405.1	Human mastadenovirus C	35937	1	0.0015013
+OK	SRR741368	129744030	46015	NC_001623.1	Autographa californica nucleopolyhedrovirus	133894	1	0.000402948
+OK	SRR385776	78175164	10376	NC_007605.1	Human gammaherpesvirus 4	171823	111000	57.8457
+OK	SRR385776	78175164	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	811	0.420336
+TE	SRR385776	78175164	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR768303	126020530	10376	NC_007605.1	Human gammaherpesvirus 4	171823	143673	46.4462
+OK	SRR768303	126020530	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	907	0.291616
+TE	SRR768303	126020530	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+TE	SRR768303	126020530	1910952	G4microvirus is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR768305	146195918	10376	NC_007605.1	Human gammaherpesvirus 4	171823	120156	33.4832
+OK	SRR768305	146195918	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	750	0.20786
+TE	SRR768305	146195918	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+TE	SRR768305	146195918	10374	Gammaherpesvirinae is not a specie so we cannot extract reference sequence to count viral load
+TE	SRR768305	146195918	1910952	G4microvirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR234322	206950590	10376	NC_007605.1	Human gammaherpesvirus 4	171823	196534	38.689
+OK	ERR234322	206950590	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	1453	0.284475
+TE	ERR234322	206950590	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+TE	ERR234322	206950590	10374	Gammaherpesvirinae is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR243111	2960039	10376	NC_007605.1	Human gammaherpesvirus 4	171823	1238	17.0388
+OK	ERR243111	2960039	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	8	0.109506
+OK	ERR234325	204535286	10376	NC_007605.1	Human gammaherpesvirus 4	171823	59495	11.8503
+OK	ERR234325	204535286	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	417	0.0826062
+TE	ERR234325	204535286	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+TE	ERR234325	204535286	10292	Herpesviridae is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR234324	218120494	10376	NC_007605.1	Human gammaherpesvirus 4	171823	152142	28.4164
+OK	ERR234324	218120494	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	1129	0.209721
+TE	ERR234324	218120494	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR234327	204261847	10376	NC_007605.1	Human gammaherpesvirus 4	171823	172068	34.3186
+OK	ERR234327	204261847	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	1269	0.251721
+TE	ERR234327	204261847	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+TE	ERR234327	204261847	10374	Gammaherpesvirinae is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR234326	219815609	10376	NC_007605.1	Human gammaherpesvirus 4	171823	232249	43.0439
+OK	ERR234326	219815609	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	1579	0.291051
+TE	ERR234326	219815609	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+TE	ERR234326	219815609	10374	Gammaherpesvirinae is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR741366	134126614	10376	NC_007605.1	Human gammaherpesvirus 4	171823	133979	40.6948
+OK	SRR741366	134126614	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	951	0.287283
+TE	SRR741366	134126614	1910952	G4microvirus is not a specie so we cannot extract reference sequence to count viral load
+TE	SRR741366	134126614	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR741366	134126614	129951	NC_001405.1	Human mastadenovirus C	35937	1	0.00145225
+OK	SRR768307	125185331	10376	NC_007605.1	Human gammaherpesvirus 4	171823	552646	179.85
+OK	SRR768307	125185331	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	3654	1.18266
+TE	SRR768307	125185331	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+TE	SRR768307	125185331	1910952	G4microvirus is not a specie so we cannot extract reference sequence to count viral load
+TE	SRR768307	125185331	10374	Gammaherpesvirinae is not a specie so we cannot extract reference sequence to count viral load
+TE	SRR768307	125185331	35237	dsDNA viruses, no RNA stage is not a specie so we cannot extract reference sequence to count viral load
+TE	SRR768307	125185331	1910951	Alpha3microvirus is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR768309	145812859	10376	NC_007605.1	Human gammaherpesvirus 4	171823	51407	14.3629
+OK	SRR768309	145812859	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	293	0.0814173
+TE	SRR768309	145812859	1910952	G4microvirus is not a specie so we cannot extract reference sequence to count viral load
+TE	SRR768309	145812859	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR768309	145812859	45455	NC_006146.1	Macacine gammaherpesvirus 4	171096	1	0.000280584
+TE	SRR768309	145812859	1910951	Alpha3microvirus is not a specie so we cannot extract reference sequence to count viral load
+OK	SRR622461	159732785	10376	NC_007605.1	Human gammaherpesvirus 4	171823	137291	35.0159
+OK	SRR622461	159732785	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	1069	0.271162
+TE	SRR622461	159732785	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+TE	SRR622461	159732785	10374	Gammaherpesvirinae is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR234328	210101635	10376	NC_007605.1	Human gammaherpesvirus 4	171823	319037	61.8626
+OK	ERR234328	210101635	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	2295	0.442586
+TE	ERR234328	210101635	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
+TE	ERR234328	210101635	10374	Gammaherpesvirinae is not a specie so we cannot extract reference sequence to count viral load
+OK	ERR234329	203831169	10376	NC_007605.1	Human gammaherpesvirus 4	171823	61138	12.2196
+OK	ERR234329	203831169	12509	NC_009334.1	Human herpesvirus 4 type 2	172764	458	0.0910416
+TE	ERR234329	203831169	10375	Lymphocryptovirus is not a specie so we cannot extract reference sequence to count viral load
