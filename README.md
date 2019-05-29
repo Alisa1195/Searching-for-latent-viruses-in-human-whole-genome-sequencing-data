@@ -2,12 +2,6 @@
 __Students:__ Yura Orlov, Nadya Pogodina, Alisa Morshneva (Bioinformatics Institute, Saint-Petersburg)\
 __Supervisors:__ Valery Ilinsky, Alexander Rakitko (Genotek, Moscow)
 
-1.цели и задачи проекта; - __done__  
-2.краткое описание используемых методов;  
-3.системные требования для разработанного ПО (требования по памяти/CPU, необходимая версия операционной системы, интерпретатора, библиотек и пр.);  
-4.инструкция по запуску разработанного ПО (для консольного приложения - описание ключей запуска, примеры команд с выбранными ключами);  
-5.примеры получаемых с помощью ПО результатов (текст, графики, таблицы и пр.);  
-6.ссылки на используемую литературу, базы данных и пр.   
 
 ## Project description
   The viral ability to stay in the asymptomatic phase of infection when a virus is not replicating is known as latency. A virus can stay latent for decades without exposing itself, although maintaining a capability to cause acute infections. Hence, viral presence in the human organism can remain unseen. 
