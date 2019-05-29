@@ -50,9 +50,11 @@ The only mandatory paramenter is "-id" which indicates a path to the file contai
 Before use change the variable "path_to_database" in the beginning of the script assigning a path to Kraken2-build database you want to use. As an option it can be provided every time using "-db" parameter. 
 
 Basic usage:
+
 processing_script_v6.sh -id <path_to>/kraken_id_RefSeq_id_lenght.tsv
 
 To view help:
+
 processing_script_v6.sh -h
 
 ## Results
