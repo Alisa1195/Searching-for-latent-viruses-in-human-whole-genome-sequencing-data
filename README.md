@@ -34,9 +34,9 @@ The [bash-script](https://github.com/Alisa1195/Searching-for-latent-viruses-in-h
 #### GWAS
 For performing the GWAS viral data should be represented this way:  
 
-population | Donor ID | EBV reads | EBV load
+Group | Population | Donor ID | Mastadenovirus load
 ------------ | ------------- | ------------- | -------------
-СЮДА | NAДО |ПРИМЕР | СТРОКИ
+Case | CEU | NA12342 | 0.268727
 
 It has been done using command line utilities (awk, grep, sed, paste, etc) - the exact commands provided in the [lab report](https://github.com/Alisa1195/Searching-for-latent-viruses-in-human-whole-genome-sequencing-data/blob/master/Lab_report_ILI_Genotek.md)
 
@@ -62,12 +62,16 @@ all these scripts can be found [here](https://github.com/Alisa1195/Searching-for
 
 
 ## References 
-__(пока набросала статьи из нашего литобзора - надо бы еще статью про 8000 виромов добавить)__
+#### Database
+- A global reference for human genetic variation, The 1000 Genomes Project Consortium, Nature 526, 68-74 (01 October 2015) doi:10.1038/nature15393
+
 #### Viruses and latency
 - Gelderblom, Hans R. 1996. “Structure and Classification of Viruses.” In Medical Microbiology, edited by Samuel Baron, 4th ed. Galveston (TX): University of Texas Medical Branch at Galveston. http://www.ncbi.nlm.nih.gov/books/NBK8174/.
 - Grinde, Bjørn. 2013. “Herpesviruses: Latency and Reactivation – Viral Strategies and Host Response.” Journal of Oral Microbiology 5 (October). https://doi.org/10.3402/jom.v5i0.22766.
 - Lieberman, Paul M. 2016. “Epigenetics and Genetics of Viral Latency.” Cell Host & Microbe 19 (5): 619–28. https://doi.org/10.1016/j.chom.2016.04.008.
 - Mahy, Brian W.J. 2006. “The Diversity of Viruses Infecting Humans.” Biodiversity 7 (1): 34–37. https://doi.org/10.1080/14888386.2006.9712792.
+- Moustafa A, Xie C, Kirkness E, Biggs W, Wong E, Turpaz Y, et al. (2017) The blood DNA virome in 8,000 humans. PLoS Pathog 13(3): e1006292. https://doi.org/10.1371/journal.ppat.1006292
+
 
 #### Searching for viruses, virome studies, GWAS
 
