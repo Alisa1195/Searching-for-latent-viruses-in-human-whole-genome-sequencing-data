@@ -8,7 +8,7 @@ __Supervisors:__ Valery Ilinsky, Alexander Rakitko (Genotek, Moscow)
     
   Whole-genome human sequencing data also contain sequences of dsDNA-viruses (or integrated RNA-viruses), because they are technically indistinguishable from the host DNA. These sequences stay unaligned and can be identified using databases. There are six viral families that store their genetic material in dsDNA form: Adenoviridae, Herpesviridae, Poxviridae and Polyomaviridae (linear dsDNA), Papovaviridae and Hepadnaviridae (circular dsDNA).
     
-  In this project we were searching for viruses in WGS data from private Genotek database and 1000 Genomes project. On 5 population from 1000 Genomes project we performed GWAS (genome-wide association studies) for determine the associations between viral load level (EBV, Epstein-Barr virus) / viral presence (Mastadenoviruses) and SNP in human genome.
+  In this project we were searching for viruses in WGS data from private Genotek database and 1000 Genomes project. On 5 population from 1000 Genomes project we performed GWAS (genome-wide association studies) in order to determine the associations between viral load level (EBV, Epstein-Barr virus) / viral presence (Mastadenoviruses) and SNP in human genome.
 
 ## Goal
 Characterize viral load and representation in human WGS data and search for possible association between viral load and genetic variations
@@ -58,12 +58,15 @@ To view help:
 processing_script_v6.sh -h
 
 ## Results
-![The viral load distribution of Epstein-Barr virus in 1000 Genomes data](https://github.com/Alisa1195/Searching-for-latent-viruses-in-human-whole-genome-sequencing-data/tree/master/results/EBV_viral_load.png)
+The picture represents the viral load distribution of Epstein-Barr virus among 5 european populations from 1000 Genomes 
+![The viral load distribution of Epstein-Barr virus in 1000 Genomes data](https://github.com/Alisa1195/Searching-for-latent-viruses-in-human-whole-genome-sequencing-data/blob/master/results/EBV_viral_load.png?raw=true)
 
-![The viral load distribution of Mastadenoviruses in 1000 Genomes data](https://github.com/Alisa1195/Searching-for-latent-viruses-in-human-whole-genome-sequencing-data/tree/master/results/adenoviruses_viral_load.png)
+The picture represents the viral load distribution of Mastadenovirus among 5 european populations from 1000 Genomes 
+![The viral load distribution of Mastadenoviruses in 1000 Genomes data](https://github.com/Alisa1195/Searching-for-latent-viruses-in-human-whole-genome-sequencing-data/blob/master/results/adenoviruses_viral_load.png?raw=true)
 
 GWAS reports can be found [here](https://github.com/Alisa1195/Searching-for-latent-viruses-in-human-whole-genome-sequencing-data/tree/master/results/GWAS_report)
 
+To find more information, check the [results folder](https://github.com/Alisa1195/Searching-for-latent-viruses-in-human-whole-genome-sequencing-data/tree/master/results)
 
 ## References 
 #### Database
