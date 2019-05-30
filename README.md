@@ -58,12 +58,14 @@ To view help:
 processing_script_v6.sh -h
 
 ## Results
-The picture represents the viral load distribution of Epstein-Barr virus among 5 european populations from 1000 Genomes 
+
 ![The viral load distribution of Epstein-Barr virus in 1000 Genomes data](https://github.com/Alisa1195/Searching-for-latent-viruses-in-human-whole-genome-sequencing-data/blob/master/results/EBV_viral_load.png?raw=true)
-
-The picture represents the viral load distribution of Mastadenovirus among 5 european populations from 1000 Genomes 
+#### The picture represents the viral load distribution of Epstein-Barr virus among 5 european populations from 1000 Genomes 
+ 
 ![The viral load distribution of Mastadenoviruses in 1000 Genomes data](https://github.com/Alisa1195/Searching-for-latent-viruses-in-human-whole-genome-sequencing-data/blob/master/results/adenoviruses_viral_load.png?raw=true)
-
+#### The picture represents the viral load distribution of Mastadenovirus among 5 european populations from 1000 Genomes
+  
+  
 GWAS reports can be found [here](https://github.com/Alisa1195/Searching-for-latent-viruses-in-human-whole-genome-sequencing-data/tree/master/results/GWAS_report)
 
 To find more information, check the [results folder](https://github.com/Alisa1195/Searching-for-latent-viruses-in-human-whole-genome-sequencing-data/tree/master/results)
