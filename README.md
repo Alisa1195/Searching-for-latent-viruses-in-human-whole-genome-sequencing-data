@@ -23,7 +23,9 @@ Characterize viral load and representation in human WGS data and search for poss
 
 ## Methods
 #### Searching for viral reads in WGS data
-The [bash-script](https://github.com/Alisa1195/Searching-for-latent-viruses-in-human-whole-genome-sequencing-data/blob/master/scripts/processing_script_v6_with_comments.sh) was written in order to extract reads unmapped to GRCh38 from alignment files (samtools), identify the viral reads using Kraken2 (used RefSeq database as in Kraken2 manual: "containing complete genomes for the bacterial, archaeal, and viral domains, along with the human genome and a collection of known vectors (UniVec_Core)"), parse report files to get information about viral representation and count viral load (awk, grep, sed, etc). 
+As testing data we used private Genotek sample of a woman's uterine tissue that is rich in papillomavirus 16, caused cervical cancer. Also we tested our pipeline on one sample of 1000 Genome Project from CEU population ([NA12890](ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1000_genomes_project/data/CEU/NA12890/alignment/NA12890.alt_bwamem_GRCh38DH.20150718.CEU.low_coverage.cram))
+
+The [bash-script](https://github.com/Alisa1195/Searching-for-latent-viruses-in-human-whole-genome-sequencing-data/blob/master/scripts/processing_script_v6.sh) was written in order to extract reads unmapped to GRCh38 from alignment files (samtools), identify the viral reads using Kraken2 (used RefSeq database as in Kraken2 manual: "containing complete genomes for the bacterial, archaeal, and viral domains, along with the human genome and a collection of known vectors (UniVec_Core)"), parse report files to get information about viral representation and count viral load (awk, grep, sed, etc). 
 
 #### GWAS
 For performing the GWAS viral data should be represented this way:  
@@ -51,11 +53,15 @@ Before use change the variable "path_to_database" in the beginning of the script
 
 Basic usage:
 
+```shell
 processing_script_v6.sh -id <path_to>/kraken_id_RefSeq_id_lenght.tsv
+```
 
 To view help:
 
+```shell
 processing_script_v6.sh -h
+```
 
 ## Results
 
