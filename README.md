@@ -68,7 +68,7 @@ Basic usage:
 Usage example on [-i] folder containing all alignment files for ACB population from 1000 Genomes:
 
 ```shell
-./processing_script_v6.sh -t 8 -i /home/1000_genomes/data_cram/ACB/ -o /home/1000_genomes/ -p ACB -id kraken_id_RefSeq_id_lenght.tsv
+./processing_script_v6.sh -t 8 -db /home/tools/Kraken2/databases/RefSeq/ -i /home/1000_genomes/data_cram/ACB/ -o /home/1000_genomes/ -p ACB -id kraken_id_RefSeq_id_lenght.tsv
 
 ```
 
