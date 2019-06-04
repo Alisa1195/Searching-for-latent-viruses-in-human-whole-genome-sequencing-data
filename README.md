@@ -49,18 +49,34 @@ all these scripts can be found [here](https://github.com/Alisa1195/Searching-for
 #### Usage examples
 
 The only mandatory paramenter is "-id" which indicates a path to the file containing length of corresponding reference sequences (kraken_id_RefSeq_id_lenght.tsv).
+
+Script workflow can be summarised in the following steps:
+
+1. Iteration over all the .cram (default) or .bam files in -[i] folder which has to include corresponding indexes (.crai or .bai)
+2. Extraction of reads mapped to decoy EBV virus (included in GRCh38 with decoy sequences) and all unmapped reads and their transformation into two paired-end .fasta files
+3. Classify extracted reads by Kraken2
+4. Kraken2 report parsing to detect present viruses and viral load estimation
+
 Before use change the variable "path_to_database" in the beginning of the script assigning a path to Kraken2-build database you want to use. As an option it can be provided every time using "-db" parameter. 
 
 Basic usage:
 
 ```shell
-processing_script_v6.sh -id <path_to>/kraken_id_RefSeq_id_lenght.tsv
+./processing_script_v6.sh -id <path_to>/kraken_id_RefSeq_id_lenght.tsv
 ```
+
+Usage example on [-i] folder containing all alignment files for ACB population from 1000 Genomes:
+
+```shell
+./processing_script_v6.sh -t 8 -i /home/1000_genomes/data_cram/ACB/ -o /home/1000_genomes/ -p ACB -id kraken_id_RefSeq_id_lenght.tsv
+
+```
+
 
 To view help:
 
 ```shell
-processing_script_v6.sh -h
+./processing_script_v6.sh -h
 ```
 
 ## Results
